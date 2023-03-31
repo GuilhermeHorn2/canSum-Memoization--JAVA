@@ -16,14 +16,6 @@ public class main_misc {
 	/*
 	 * Solution based on the fact that every integer can be formed by : t = k*n + r
 	 */
-	private static int has_one(int[]v) {
-		for(int i = 0;i < v.length;i++) {
-			if(v[i] == 1) {
-				return 1;
-			}
-		}
-		return 0;
-	}
 	private static int div(int t,int k) {
 		if(t % k == 0) {
 			return 1;
